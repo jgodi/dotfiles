@@ -1,16 +1,25 @@
+Tools
 node
 yarn
 brew
+oh-my-zsh
 
-Paste
-RecordIt
-Mosaic
+Setapp
+BetterTouchTool
+Wallpaper Wizard
 Sip
+Bartender
+Cleanshot X
+Paste
+Mosaic
 PixelSnap
-CleanMyMac
+ToothFairy
+CleanMyMacX
+Batteries
+Gitfox
+
+Other Apps
 VSCode
 Dashlane
-Fork
 iTerm
 Slack
-

@@ -1,58 +1,59 @@
 {
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"editor.cursorStyle": "line-thin",
 	"editor.fontFamily": "Dank Mono",
 	"editor.fontLigatures": true,
-	"editor.fontSize": 13,
-	"editor.fontWeight": "bold",
-	"editor.formatOnSave": true,
-	"editor.minimap.enabled": false,
-	"editor.rulers": [100],
-	"editor.suggestSelection": "first",
-	"editor.tabSize": 2,
-	"editor.wordWrapColumn": 100,
-	"emmet.showAbbreviationSuggestions": false,
-	"emmet.showExpandedAbbreviation": "never",
-	"eslint.alwaysShowStatus": true,
-	"eslint.autoFixOnSave": true,
+	"editor.fontSize": 14,
+	"editor.renderIndentGuides": true,
 	"files.autoSave": "onFocusChange",
-	"files.exclude": {
-		"**/.classpath": true,
-		"**/.factorypath": true,
-		"**/.project": true,
-		"**/.settings": true
-	},
-	"html.format.wrapLineLength": 100,
-	"prettier.arrowParens": "always",
-	"prettier.jsxSingleQuote": true,
-	"prettier.printWidth": 100,
-	"prettier.singleQuote": true,
-	"prettier.trailingComma": "all",
-	"search.exclude": {
-		"**/node_modules": true,
-		"**/dist": true
-	},
-	"terminal.external.osxExec": "iTerm.app",
-	"terminal.integrated.enableBell": true,
-	"terminal.integrated.fontWeight": "bold",
-	"terminal.integrated.shell.osx": "/bin/zsh",
-	"turboConsoleLog.addSemicolonInTheEnd": true,
-	"turboConsoleLog.logMessagePrefix": "DEBUG",
-	"turboConsoleLog.quote": "'",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"typescript.preferences.importModuleSpecifier": "relative",
 	"window.restoreWindows": "none",
-	"window.zoomLevel": 0,
-	"workbench.colorTheme": "Noctis Minimus",
 	"workbench.editor.closeOnFileDelete": true,
 	"workbench.editor.enablePreview": false,
 	"workbench.editor.enablePreviewFromQuickOpen": false,
 	"workbench.editor.highlightModifiedTabs": true,
-	"workbench.iconTheme": "vscode-great-icons",
-	"workbench.settings.editor": "json",
 	"workbench.tips.enabled": false,
-	"workbench.tree.indent": 4,
-	"workbench.view.alwaysShowHeaderActions": true
+	"workbench.view.alwaysShowHeaderActions": true,
+	"workbench.iconTheme": "vscode-icons",
+	"editor.formatOnSave": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"terminal.external.osxExec": "iTerm.app",
+	"terminal.integrated.enableBell": true,
+	"terminal.integrated.fontFamily": "Dank Mono",
+	"search.exclude": {
+		"**/node_modules": false
+	},
+	"vsicons.dontShowNewVersionMessage": true,
+	"turboConsoleLog.addSemicolonInTheEnd": true,
+	"turboConsoleLog.logMessagePrefix": "DEBUG",
+	"turboConsoleLog.quote": "'",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩",
+	"emmet.showAbbreviationSuggestions": false,
+	"emmet.showExpandedAbbreviation": "never",
+	"window.zoomLevel": 1,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"explorer.confirmDelete": false,
+	"terminal.integrated.allowChords": false,
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"terminal.integrated.experimentalLinkProvider": false,
+	"terminal.integrated.rendererType": "auto",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.settings.editor": "json",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
